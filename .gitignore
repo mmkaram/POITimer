@@ -1,3 +1,51 @@
 secrets.h
 *.bin
 *.elf
+# Backup
+*~
+*.bak
+*.bck
+*.tmp
+*.kicad_pcb-bak
+*.kicad_sch-bak
+
+# Auto-saved schematic / pcb
+_autosave-*
+*.autosave*
+
+# Netlists and cache
+*.net
+*.dsn
+*.ses
+
+# Gerbers and fabrication outputs
+*.gbr
+*.gerber
+*.drl
+*.gko
+*.gm1
+*.gm2
+*.gbl
+*.gtl
+*.gbs
+*.gts
+*.gbo
+*.gto
+*.gbrjob
+*.zip
+
+# KiCad 6+ cache directories
+.kicad/
+*.kicad_prl
+*.kicad_pro.user
+
+# Simulation / logs
+*.log
+*.csv
+
+# macOS / Windows junk
+.DS_Store
+Thumbs.db
+
+# Python cache (if using scripts)
+__pycache__/
